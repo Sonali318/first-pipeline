@@ -1,4 +1,3 @@
-
 pipeline 
 	{
 		agent any
@@ -7,31 +6,18 @@ pipeline
 			{
 				stage('print hi')
 				{
-					steps {
+					steps 
+					{
 					
 						sh 'echo hi'
 					
 					}
 				
 				
-				
 				}
-			
-			
-			
-			
 			
 			}
 		
-		
-		
-		
-		
-		
 		}
-	
-	
-	
-	
 	
 	}
